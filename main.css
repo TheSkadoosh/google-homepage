@@ -13,20 +13,26 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
-    width: 535px;
+    width: 545px;
     height: 42px;
-    border-radius: 25px;
+    border-style: hidden;
     text-align: left;
     background-color: whitesmoke;
+    background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat;
+    background-size: 5%;
+    background-position: right;
+    
     
 }
 
-.search:hover {
-    background-color: grey;
-}
-
-input::placeholder {
+input::-webkit-input-placeholder {
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 125%;
-    margin-left: 10px;
+    
 }
+
+#searchbar:hover {
+    background-color: gray;
+}
+
