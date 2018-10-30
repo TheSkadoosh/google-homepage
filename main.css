@@ -40,7 +40,7 @@ input::-webkit-input-placeholder {
    */
    box-shadow: 0 2px 2px rgba(0,0,0,0.25);
 }
-
+/* Top link Styles */
 .top-menu {
     text-align: left;
     margin-left: 1.5%;
@@ -48,49 +48,50 @@ input::-webkit-input-placeholder {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 82%;
 }
-
+/* BROKEN hover setup for menus */
 .top-left-menu:hover {
     box-shadow: 0,1px,1px black;
 }
-
+/* Top Right menu options */
 .right-menu-icons {
     width: 25;
     height: 25;
     margin-top: -12;
       
 }
-
+/* Seperate Stlye for Account Icon */
 #Account-Icon {
     width: 30 !important;
     height: 30 !important;
 }
-
+/* Manual Search Button Styles */
 .searchbutton {
     height: 38px;
     width: 70%;
     width: 88px;
     background-color: whitesmoke;
 }
-
+/* Lucky Button Styles */
 .luckybutton {
     height: 38px;
     width: 70%;
     width: 88px;
     background-color: whitesmoke;
 }
-
+/* Button Container set for side by bide buttons */
 .manualbuttons {
     display:inline-block;
+    align-self: auto;
 }
-
+/* Bottom Menu Styles */
 .bottom-menu {
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-bottom: 8%;
+    margin-bottom: 9.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 82%;
 }
-
+/* BROKEN Bottom Menu Container Styles */
 .container {
     background-color: beige;
     border-top: 1px;
