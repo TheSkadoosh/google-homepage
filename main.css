@@ -1,7 +1,32 @@
-.mainimage {
-    background-position-x: center;
+.center {
+    display: block;
+    height: 15%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+
 }
 
-p {
-    color:red;
+#searchbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 535px;
+    height: 42px;
+    border-radius: 25px;
+    text-align: left;
+    background-color: whitesmoke;
+    
+}
+
+.search:hover {
+    background-color: grey;
+}
+
+input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    margin-left: 10px;
 }
