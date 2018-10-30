@@ -46,7 +46,7 @@ input::-webkit-input-placeholder {
     margin-left: 1.5%;
     margin-top: 1.5%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 82%;
+    font-size: 85%;
 }
 /* BROKEN hover setup for menus */
 .top-left-menu:hover {
@@ -83,16 +83,22 @@ input::-webkit-input-placeholder {
     display:inline-block;
     align-self: auto;
 }
+
+.buttoncontainer {
+    text-align: center;
+}
 /* Bottom Menu Styles */
 .bottom-menu {
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-bottom: 9.5%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 82%;
+    font-size: 85%;
 }
 /* BROKEN Bottom Menu Container Styles */
-.container {
-    background-color: beige;
-    border-top: 1px;
+.bottomcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    border:1px #eaeaea;
 }
