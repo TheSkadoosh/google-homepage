@@ -66,8 +66,19 @@ input::-webkit-input-placeholder {
 }
 
 .searchbutton {
-    height: 44px;
-    width: 50%;
+    height: 38px;
+    width: 70%;
     width: 88px;
-    margin: auto;
+    background-color: whitesmoke;
+}
+
+.luckybutton {
+    height: 38px;
+    width: 70%;
+    width: 88px;
+    background-color: whitesmoke;
+}
+
+.manualbuttons {
+    display:inline-block;
 }
