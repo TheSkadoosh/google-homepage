@@ -21,7 +21,7 @@
     border:1px solid #eaeaea;
     text-align: left;
     background-color: whitesmoke;
-    background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat;
+    background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat; /* adding microphone icon */
     background-size: 5%;
     background-position: 520px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.25);
@@ -49,21 +49,25 @@ input::-webkit-input-placeholder {
     font-size: 85%;
 }
 /* BROKEN hover setup for menus */
-.top-left-menu:hover {
-    box-shadow: 0,1px,1px black;
+.top-menu:hover {
+
 }
-/* Top Right menu options */
-.right-menu-icons {
+
+#appdrawer {
     width: 25;
     height: 25;
-    margin-top: -12;
-      
 }
-/* Seperate Stlye for Account Icon */
-#Account-Icon {
-    width: 30 !important;
-    height: 30 !important;
+
+#notification {
+    width: 20;
+    height: 20;
 }
+
+#account {
+    width: 38 !important;
+    height: 38 !important;
+}
+
 /* Manual Search Button Styles */
 .searchbutton {
     height: 38px;
@@ -84,6 +88,7 @@ input::-webkit-input-placeholder {
     align-self: auto;
 }
 
+/* container styles for the buttons in the middle of the page */
 .buttoncontainer {
     text-align: center;
 }
@@ -97,8 +102,27 @@ input::-webkit-input-placeholder {
 }
 /* BROKEN Bottom Menu Container Styles */
 .bottomcontainer {
-    margin-left: auto;
-    margin-right: auto;
     background-color: whitesmoke;
-    border:1px #eaeaea;
+    height: 30px;
+    align-items: center;
+}
+
+/* unvisited link */
+.link {
+    text-decoration: none;
+}
+
+/* visited link */
+.visited {
+    color: blue;
+}
+
+/* mouse over link */
+.hover:hover {
+    text-decoration: underline;
+}
+
+/* selected link */
+.active {
+    color: black;
 }
