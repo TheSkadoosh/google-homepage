@@ -47,15 +47,14 @@ input::-webkit-input-placeholder {
     margin-top: 1.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 85%;
-}
-/* BROKEN hover setup for menus */
-.top-menu:hover {
-
+    height: 30;
+    background-color:   grey;  
 }
 
 #appdrawer {
     width: 25;
     height: 25;
+
 }
 
 #notification {
@@ -102,9 +101,10 @@ input::-webkit-input-placeholder {
 }
 /* BROKEN Bottom Menu Container Styles */
 .bottomcontainer {
-    background-color: whitesmoke;
-    height: 30px;
+    background-color: grey;
+    height: 20px;
     align-items: center;
+    margin: auto;
 }
 
 /* unvisited link */
@@ -127,6 +127,9 @@ input::-webkit-input-placeholder {
     color: black;
 }
 
+
+
+/**************************/
 
 /* Results Page Styles */
 
