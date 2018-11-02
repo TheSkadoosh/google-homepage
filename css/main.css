@@ -131,15 +131,18 @@ input::-webkit-input-placeholder {
 /* Results Page Styles */
 
 .topcontainer {
-    height: 40;
+    height: 116;
     margin: 0;
     background: whitesmoke;
+    border-bottom: solid 1px #eaeaea;
 }
 
 .topimage {
     float: left;
-    height: 44;
-    width: 120;
+    height: 42;
+    width: 118;
+    margin-top: 15;
+    margin-left: 5;
 
 }
 
@@ -151,10 +154,10 @@ input::-webkit-input-placeholder {
 /* Search Bar Styles */
 #topsearchbar {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    width: 570px;
+    float: left;
+    margin-top: 10;
+    margin-left: 16;
+    width: 640px;
     height: 44px;
     border: none; 
     padding: 10px;
@@ -162,6 +165,24 @@ input::-webkit-input-placeholder {
     text-align: left;
     background-color: whitesmoke;
     background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat, url(https://i.imgur.com/op3FcBd.png) no-repeat; /* adding microphone icon */
-    background-size: 5%, 4%;
-    background-position: 490px, 530px;
+    background-size: 4%, 3%;
+    background-position: 560px, 600px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+
+/* Search Bar Hover Style */
+#topsearchbar:hover {
+    /* 
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+    */
+    box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+ }
+
+ .mainmenuleft {
+    margin-bottom: 0;
+    margin-left: 120;
+ }
+
+ .mainmenuright {
+
+ }
