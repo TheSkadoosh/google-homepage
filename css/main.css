@@ -126,3 +126,42 @@ input::-webkit-input-placeholder {
 .active {
     color: black;
 }
+
+
+/* Results Page Styles */
+
+.topcontainer {
+    height: 40;
+    margin: 0;
+    background: whitesmoke;
+}
+
+.topimage {
+    float: left;
+    height: 44;
+    width: 120;
+
+}
+
+.topsearch {
+    height: 35;
+    width: 400;
+}
+
+/* Search Bar Styles */
+#topsearchbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 570px;
+    height: 44px;
+    border: none; 
+    padding: 10px;
+    border:1px solid #eaeaea;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url(http://i.imgur.com/l5S4LZ2.png) no-repeat, url(https://i.imgur.com/op3FcBd.png) no-repeat; /* adding microphone icon */
+    background-size: 5%, 4%;
+    background-position: 490px, 530px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25);
