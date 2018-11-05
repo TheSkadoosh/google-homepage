@@ -47,8 +47,7 @@ input::-webkit-input-placeholder {
     margin-top: 1.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 85%;
-    height: 30;
-    background-color:   grey;  
+    height: 12.5;
 }
 
 #appdrawer {
@@ -60,11 +59,13 @@ input::-webkit-input-placeholder {
 #notification {
     width: 20;
     height: 20;
+    margin-top: 1%;
 }
 
 #account {
     width: 38 !important;
     height: 38 !important;
+    margin-top: .5%;
 }
 
 /* Manual Search Button Styles */
@@ -93,16 +94,16 @@ input::-webkit-input-placeholder {
 }
 /* Bottom Menu Styles */
 .bottom-menu {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 9.5%;
+    margin-left: 2.0%;
+    margin-right: 2.0%;
+    margin-bottom: 8.75%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 85%;
 }
-/* BROKEN Bottom Menu Container Styles */
+/* Bottom Menu Container Styles */
 .bottomcontainer {
-    background-color: grey;
-    height: 20px;
+    color: whitesmoke;
+    height: auto;
     align-items: center;
     margin: auto;
 }
